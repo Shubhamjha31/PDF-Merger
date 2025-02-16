@@ -1,22 +1,23 @@
-# **PDF Merger – Simple & Fast PDF Combining Tool**  
+PDF Merger – Simple & Fast PDF Combining Tool
+🚀 A lightweight and user-friendly web application that merges two PDF files into a single document in just a few clicks. No complex installations required—just upload, merge, and download!
 
-🚀 A lightweight and user-friendly web application that merges two PDF files into a single document in just a few clicks. No complex installations required—just upload, merge, and download!  
+Features
+✅ Merge two PDFs seamlessly
+✅ Fast and secure processing
+✅ Simple and intuitive UI
+✅ Free to use, no sign-up required
 
-## **Features**  
-✅ Merge two PDFs seamlessly  
-✅ Fast and secure processing  
-✅ Simple and intuitive UI  
-✅ Free to use, no sign-up required  
+How It Works
+Upload two PDF files
+Click the "Merge" button
+Download your merged PDF instantly
+Tech Stack
+🔹 Frontend: EJS, CSS, JavaScript
+🔹 Backend: Node.js, Express.js
+🔹 PDF Processing: pdf-merger-js
 
-## **Tech Stack**  
-🔹 **Frontend:** EJS, CSS, JavaScript  
-🔹 **Backend:** Node.js, Express.js  
-🔹 **PDF Processing:** pdf-lib (or any other library you used)  
+Live Demo
+🌐 Try it here: PDF Merger
 
-## **How It Works**  
-1. Upload two PDF files  
-2. Click the "Merge" button  
-3. Download your merged PDF instantly  
-
-## **Contributions & Feedback**  
-Feel free to contribute, suggest improvements, or report any issues!  
+Contributions & Feedback
+Feel free to contribute, suggest improvements, or report any issues!
