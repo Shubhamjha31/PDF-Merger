@@ -1,0 +1,66 @@
+h4{
+    margin: 0px 30vw;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue", serif;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-menu li{
+    width: 400px;
+    margin-left: 10px;
+}
+
+.about{
+    margin: 17vh 20vw;
+    background-color: rgb(248,249,250,1);
+    border-radius: 10px;
+}
+.about p{
+    margin: 4px 4px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(248,249,250,1);
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-h{
+    margin-bottom: 45.3vh;
+}
+
+footer h6{
+    font-family: "Cedarville Cursive", serif;
+    font-size: 20px;
+    color: darkgrey;
+    margin-top: 4px;
+}
+
+.footer-nav a{
+    color: black;
+    text-decoration-line: none;
+    margin: 0px 4px;
+}
+.footer-nav{
+    margin-top: 4px;
+}
+.social{
+    display: flex;
+}
+
+.social a{
+    margin: 0px 5px;
+}
+
+.icon{
+    height: 25px;
+}

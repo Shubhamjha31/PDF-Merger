@@ -1,0 +1,15 @@
+<%- include("header.ejs") %>
+<main>
+  <div class="f-h">
+    <h4>
+      "Seamlessly Merge Your PDFs in Seconds – Fast, Free, and Hassle-Free!"
+    </h4>
+    <p></p>
+    <form action="/merge" method="post" enctype="multipart/form-data">
+      <label for="file"></label>
+      <input type="file" id="file" name="pdfs" accept=".pdf" multiple />
+      <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+  </div>
+</main>
+<%- include("footer.ejs") %>
