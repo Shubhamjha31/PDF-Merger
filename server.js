@@ -12,6 +12,8 @@ const port = 3000;
 
 app.use(express.static("public"));
 const merge = async (file1, file2)=>{
+    // PDFMerger starts fresh each time so previous files doesn't merge in it
+    let merger = new PDFMerger();
     await merger.add(file1);
     await merger.add(file2);
     await merger.save('merged.pdf');
@@ -22,6 +24,7 @@ const merge = async (file1, file2)=>{
 
 app.get("/", (req, res) =>{
     res.render("index.ejs");
+    // Delete the previously created merged file
     fs.unlink("merged.pdf", (err) => {
         if (err && err.code !== 'ENOENT') {
             console.error("Error deleting merged.pdf:", err);
